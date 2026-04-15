@@ -1,0 +1,73 @@
+{
+  "name": "@vaultfire/sdk",
+  "version": "1.0.0",
+  "description": "Official TypeScript SDK for the Vaultfire Protocol — the trust and accountability layer for AI agents. Deployed on Base and Avalanche.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "API_REFERENCE.md",
+    "SAFE_DEFAULTS.md",
+    "examples"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --config jest.config.js",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build",
+    "example:defi": "ts-node examples/defi-trading.ts",
+    "example:dao": "ts-node examples/governance-dao.ts"
+  },
+  "keywords": [
+    "vaultfire",
+    "sdk",
+    "trust",
+    "ai-agents",
+    "kya",
+    "know-your-agent",
+    "attestation",
+    "zk-proof",
+    "base",
+    "avalanche",
+    "blockchain",
+    "erc-8004",
+    "identity",
+    "reputation",
+    "bonds",
+    "accountability",
+    "partnership",
+    "dilithium",
+    "quantum-resistant"
+  ],
+  "author": "Ghostkey316",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ghostkey316/vaultfire-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ghostkey316/vaultfire-sdk/issues"
+  },
+  "homepage": "https://github.com/Ghostkey316/vaultfire-sdk#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "ethers": "^6.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/jest": "^29.5.11",
+    "typescript": "^5.3.3",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
