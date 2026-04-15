@@ -239,6 +239,8 @@ The SDK is one piece of the Vaultfire stack. Combine with these packages for the
 | [`@vaultfire/xmtp`](https://github.com/Ghostkey316/vaultfire-xmtp) | Trust-gated encrypted agent messaging via XMTP |
 | [`@vaultfire/vns`](https://github.com/Ghostkey316/vaultfire-vns) | On-chain `.vns` name service for AI agents |
 | [`vaultfire-contracts`](https://github.com/Ghostkey316/vaultfire-contracts) | Canonical contract registry — all deployed ABIs and addresses |
+| [`@vaultfire/arbitrum`](https://github.com/Ghostkey316/vaultfire-arbitrum) | Arbitrum One — AI agent trust infrastructure |
+| [`@vaultfire/polygon`](https://github.com/Ghostkey316/vaultfire-polygon) | Polygon PoS — AI agent trust infrastructure |
 
 ---
 
