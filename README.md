@@ -229,6 +229,19 @@ See [API_REFERENCE.md](./API_REFERENCE.md) for the complete API reference includ
 
 ---
 
+## Ecosystem
+
+The SDK is one piece of the Vaultfire stack. Combine with these packages for the full agent operating system:
+
+| Package | Description |
+|---|---|
+| [`@vaultfire/x402`](https://github.com/Ghostkey316/vaultfire-x402) | x402 payment protocol — HTTP 402 USDC micropayments on Base & Avalanche |
+| [`@vaultfire/xmtp`](https://github.com/Ghostkey316/vaultfire-xmtp) | Trust-gated encrypted agent messaging via XMTP |
+| [`@vaultfire/vns`](https://github.com/Ghostkey316/vaultfire-vns) | On-chain `.vns` name service for AI agents |
+| [`vaultfire-contracts`](https://github.com/Ghostkey316/vaultfire-contracts) | Canonical contract registry — all deployed ABIs and addresses |
+
+---
+
 ## Explore
 
 - **Hub:** [theloopbreaker.com](https://theloopbreaker.com)
