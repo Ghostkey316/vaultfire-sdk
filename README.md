@@ -102,7 +102,6 @@ That's it. The SDK handles RPC endpoints and contract addresses automatically fo
 |-------|----------|--------|-------------------|----------------|
 | Base | 8453 | **Live** | [`0xBBC0...0A4`](https://basescan.org/address/0xBBC0EFdEE23854e7cb7C4c0f56fF7670BB0530A4) | [`0xa5CE...272`](https://basescan.org/address/0xa5CEC47B48999EB398707838E3A18dd20A1ae272) |
 | Avalanche | 43114 | **Live** | [`0x2115...cF1f`](https://snowtrace.io/address/0x211554bd46e3D4e064b51a31F61927ae9c7bCF1f) | [`0xb3d8...D2F`](https://snowtrace.io/address/0xb3d8063e67bdA1a869721D0F6c346f1Af0469D2F) |
-| Base Sepolia | 84532 | Testnet | — | — |
 
 ---
 
@@ -114,7 +113,7 @@ That's it. The SDK handles RPC endpoints and contract addresses automatically fo
 import { VaultfireSDK } from '@vaultfire/sdk';
 
 const sdk = new VaultfireSDK({
-  chain: 'base',           // 'base' | 'avalanche' | 'base-sepolia' | 'base-goerli'
+  chain: 'base',           // 'base' | 'avalanche' | 'arbitrum' | 'polygon'
   rpcUrl: '...',           // Optional custom RPC
   contracts: { ... },      // Optional custom contract addresses
   apiKey: '...',           // Optional API key

@@ -58,11 +58,11 @@ describe('VaultfireSDK', () => {
       expect(config.chainId).toBe(43114);
     });
 
-    it('should instantiate with base-sepolia chain', () => {
-      const sdk = new VaultfireSDK({ chain: 'base-sepolia' });
+    it('should instantiate with arbitrum chain', () => {
+      const sdk = new VaultfireSDK({ chain: 'arbitrum' });
       const config = sdk.getChainConfig();
-      expect(config.chain).toBe('base-sepolia');
-      expect(config.chainId).toBe(84532);
+      expect(config.chain).toBe('arbitrum');
+      expect(config.chainId).toBe(42161);
     });
   });
 
@@ -99,7 +99,7 @@ describe('Chain Configuration', () => {
   });
 
   it('all contract addresses should be valid hex', () => {
-    const chains: ChainId[] = ['base', 'avalanche', 'base-sepolia', 'base-goerli'];
+    const chains: ChainId[] = ['base', 'avalanche', 'arbitrum', 'polygon'];
     for (const chain of chains) {
       const sdk = new VaultfireSDK({ chain });
       const config = sdk.getChainConfig();

@@ -13,7 +13,7 @@ import { Wallet } from 'ethers';
 import { VaultfireSafeSDK, ModuleType } from '@vaultfire/sdk';
 
 const vaultfire = new VaultfireSafeSDK({
-  chain: 'base-sepolia',
+  chain: 'base',
   privacySalt: process.env.VAULTFIRE_PRIVACY_SALT,
 });
 

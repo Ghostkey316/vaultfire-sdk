@@ -10,7 +10,7 @@ import { Signer } from 'ethers';
 /**
  * Supported blockchain networks
  */
-export type ChainId = 'base' | 'avalanche' | 'base-sepolia' | 'base-goerli';
+export type ChainId = 'base' | 'avalanche' | 'arbitrum' | 'polygon';
 /**
  * Module types for different verification categories
  */

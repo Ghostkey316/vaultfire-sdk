@@ -91,7 +91,7 @@ new VaultfireSDK(config?: VaultfireConfig)
 **Parameters:**
 
 - `config` (optional): Configuration object
-  - `chain`: `'base'` | `'base-sepolia'` | `'base-goerli'` (default: `'base'`)
+  - `chain`: `'base'` | `'avalanche'` | `'arbitrum'` | `'polygon'` (default: `'base'`)
   - `rpcUrl`: Custom RPC URL (optional)
   - `contracts`: Custom contract addresses (optional)
   - `apiKey`: API key for rate limiting (optional)

@@ -16,7 +16,7 @@ import { ethers, Contract, Signer, Provider } from 'ethers';
 /**
  * Supported blockchain networks
  */
-export type ChainId = 'base' | 'avalanche' | 'base-sepolia' | 'base-goerli';
+export type ChainId = 'base' | 'avalanche' | 'arbitrum' | 'polygon';
 
 /**
  * Module types for different verification categories
@@ -166,20 +166,20 @@ const CHAIN_CONFIG: Record<ChainId, { chainId: number; rpcUrl: string; contracts
       beliefVerifier: '0xb3d8063e67bdA1a869721D0F6c346f1Af0469D2F',
     },
   },
-  'base-sepolia': {
-    chainId: 84532,
-    rpcUrl: 'https://sepolia.base.org',
+  arbitrum: {
+    chainId: 42161,
+    rpcUrl: 'https://arbitrum-one.publicnode.com',
     contracts: {
-      dilithiumAttestor: '0x0000000000000000000000000000000000000000',
-      beliefVerifier: '0x0000000000000000000000000000000000000000',
+      dilithiumAttestor: '0x6298c62FDA57276DC60de9E716fbBAc23d06D5F1',
+      beliefVerifier: '0x6298c62FDA57276DC60de9E716fbBAc23d06D5F1',
     },
   },
-  'base-goerli': {
-    chainId: 84531,
-    rpcUrl: 'https://goerli.base.org',
+  polygon: {
+    chainId: 137,
+    rpcUrl: 'https://polygon-bor-rpc.publicnode.com',
     contracts: {
-      dilithiumAttestor: '0x0000000000000000000000000000000000000000',
-      beliefVerifier: '0x0000000000000000000000000000000000000000',
+      dilithiumAttestor: '0x6298c62FDA57276DC60de9E716fbBAc23d06D5F1',
+      beliefVerifier: '0x6298c62FDA57276DC60de9E716fbBAc23d06D5F1',
     },
   },
 };
