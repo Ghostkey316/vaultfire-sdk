@@ -15,7 +15,7 @@
 
 ## What is This?
 
-The TypeScript SDK for integrating Vaultfire trust verification into any application. Verify beliefs, check attestations, query agent reputation — all on-chain, on Base and Avalanche.
+The TypeScript SDK for integrating Vaultfire trust verification into any application. Verify beliefs, check attestations, query agent reputation — all on-chain, on Base, Avalanche, Arbitrum, and Polygon.
 
 Built on ERC-8004 identity, CRYSTALS-Dilithium quantum-resistant attestations, and the Vaultfire belief verification system.
 
@@ -87,7 +87,7 @@ That's it. The SDK handles RPC endpoints and contract addresses automatically fo
 
 ## Features
 
-- **Multi-chain** — Base (chain ID 8453) and Avalanche C-Chain (chain ID 43114) out of the box
+- **Multi-chain** — Base (8453), Avalanche (43114), Arbitrum (42161), and Polygon (137) out of the box
 - **Post-quantum attestations** — CRYSTALS-Dilithium via DilithiumAttestor contracts
 - **Privacy-preserving mode** — VaultfireSafeSDK hashes statements locally with a salt, never sends raw text on-chain
 - **Type-safe** — Full TypeScript types and declaration files
