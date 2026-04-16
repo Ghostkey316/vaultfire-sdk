@@ -235,6 +235,7 @@ The SDK is one piece of the Vaultfire stack. Combine with these packages for the
 
 | Package | Description |
 |---|---|
+| [`@vaultfire/langchain`](https://github.com/Ghostkey316/vaultfire-langchain) | LangChain/LangGraph integration — 9 tools, 3-line setup, 4 chains |
 | [`@vaultfire/x402`](https://github.com/Ghostkey316/vaultfire-x402) | x402 payment protocol — HTTP 402 USDC micropayments on Base & Avalanche |
 | [`@vaultfire/xmtp`](https://github.com/Ghostkey316/vaultfire-xmtp) | Trust-gated encrypted agent messaging via XMTP |
 | [`@vaultfire/vns`](https://github.com/Ghostkey316/vaultfire-vns) | On-chain `.vns` name service for AI agents |
