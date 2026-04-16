@@ -242,6 +242,8 @@ The SDK is one piece of the Vaultfire stack. Combine with these packages for the
 | [`vaultfire-contracts`](https://github.com/Ghostkey316/vaultfire-contracts) | Canonical contract registry — all deployed ABIs and addresses |
 | [`@vaultfire/arbitrum`](https://github.com/Ghostkey316/vaultfire-arbitrum) | Arbitrum One — 16 contracts deployed |
 | [`@vaultfire/polygon`](https://github.com/Ghostkey316/vaultfire-polygon) | Polygon PoS — 16 contracts deployed |
+| [`@vaultfire/a2a`](https://github.com/Ghostkey316/vaultfire-a2a) | A2A Agent Card enrichment with on-chain Vaultfire trust |
+| [`vaultfire-langgraph-demo`](https://github.com/Ghostkey316/vaultfire-langgraph-demo) | Working LangGraph agent with trust-gated task delegation |
 
 ---
 
