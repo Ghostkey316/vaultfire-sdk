@@ -1,5 +1,8 @@
 # @vaultfire/sdk
 
+
+> **⚠️ Alpha Software** — Vaultfire Protocol is in active development. Smart contracts are deployed on mainnet but have **not been formally audited** by a third-party security firm. Use at your own risk. APIs and interfaces may change. See [LICENSE](./LICENSE) for warranty disclaimers.
+
 > Official TypeScript SDK for the Vaultfire Protocol — the trust and accountability layer for AI agents.
 
 ![npm version](https://img.shields.io/npm/v/@vaultfire/sdk.svg)
